@@ -1,4 +1,7 @@
-package com.nx.practice.reflection.annotations;
+package com.nx.practice.reflection;
+
+import com.nx.practice.reflection.annotations.Test;
+import com.nx.practice.reflection.annotations.TesterInfo;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Constructor;
@@ -8,6 +11,8 @@ import java.lang.reflect.Modifier;
 import java.util.Arrays;
 
 /**
+ * This Class example attempts to invoke a method of a private inner class
+ *
  * @author mhachem on 11/2/2016.
  */
 public class AnnotationReflection {
