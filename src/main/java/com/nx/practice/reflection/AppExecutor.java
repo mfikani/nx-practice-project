@@ -11,6 +11,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
+ * Used {@link Reflections} from <a href="https://github.com/ronmamo/reflections">org.reflections</a> library
+ *
  * @author mhachem on 11/2/2016.
  */
 public class AppExecutor {
@@ -19,9 +21,7 @@ public class AppExecutor {
 
     public static void main(String[] args) {
 
-        /**
-         * Used from <a href="https://github.com/ronmamo/reflections">org.reflections</a> library
-         */
+
         Reflections reflections = new Reflections("com.nx.practice.reflection");
 
         sExecutorService.execute(() -> {
